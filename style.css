@@ -1,0 +1,99 @@
+body {
+    font-family: 'Sans serif';
+    height: 1024px;
+    width: auto;
+    
+}
+.lateral-esquerda {
+    background-image: url(/img/green-grass-field-1743165.jpg);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+        left: 0%;
+        top: 0%;
+    height: 700px;
+    width: 35%;
+    font: bolder;
+    color: seashell;
+    padding: 10px;
+}
+.lateral-direita {
+    position: fixed;
+        right: 0;
+        left: 40%;
+        top: 0%;
+    text-align: left;
+    width: auto;
+    top: 25%;
+    
+}
+a {
+    position: fixed;
+        top: 30px;
+        right: 30px;
+    text-decoration: dodgerblue;
+}
+
+blockquote {
+    position: fixed;
+        bottom: 100px;
+        color: seashell;
+}
+
+h2 {
+    font-size: 4ch;
+    font: bolder;
+}
+
+.input-field {
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border-style: solid;
+    opacity: 0.5;
+    border-bottom-color: black;
+    
+    
+}
+.input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn2 {
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    opacity: 0.9;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.btn2:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+h3 {
+    opacity: 0.3;
+    margin-bottom: 30px;
+}
+
